@@ -155,3 +155,7 @@ set ignorecase
 
 " ただし検索文字列が大文字を含む場合は大文字小文字を区別する
 set smartcase
+
+" 挿入モードのときdeleteキーで文字を消せるようにする
+set backspace=start,eol,indent
+
