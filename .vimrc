@@ -1,5 +1,6 @@
 
-" NeoBundle start
+" --------------------------------
+"  neobundle
 
 if has('vim_starting')
 	set nocompatible
@@ -21,8 +22,10 @@ filetype plugin indent on
 
 NeoBundleCheck
 
-" NeoBundle end
 
+
+" --------------------------------
+"  neocomplete
 
 "Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 " Disable AutoComplPop.
@@ -109,6 +112,9 @@ endif
 " let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
 
+
+" --------------------------------
+"  neosnippet
 " Plugin key-mappings.
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
@@ -124,6 +130,9 @@ if has('conceal')
 endif
 
 
+
+" --------------------------------
+"  
 set nocompatible
 filetype plugin on
 
