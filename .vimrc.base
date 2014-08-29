@@ -9,6 +9,10 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" tab入力を空白で置き換える
+set expandtab
+
+" tagの幅
 set tabstop=4
 
 " 行番号を表示する
