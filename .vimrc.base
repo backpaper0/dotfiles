@@ -2,6 +2,7 @@
 
 set nocompatible
 filetype plugin on
+filetype indent on
 
 " カーソルキーでの移動禁止
 noremap <Up> <Nop>
