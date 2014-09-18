@@ -74,7 +74,7 @@ export MAVEN_OPTS
 
 # Path
 PATH=/usr/local/bin:$PATH
-PATH=/usr/local/Cellar/git/2.0.0/bin:$PATH
+PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
 PATH=~/kotlinc/bin:$PATH
 PATH=~/apache-ant-1.9.3/bin:$PATH
 PATH=~/apache-maven-3.2.2/bin:$PATH
