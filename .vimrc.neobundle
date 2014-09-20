@@ -25,6 +25,7 @@ NeoBundle 'Shougo/vimproc.vim', {
       \     'unix' : 'make -f make_unix.mak',
       \    },
       \ }
+NeoBundle 'derekwyatt/vim-scala'
 
 call neobundle#end()
 
