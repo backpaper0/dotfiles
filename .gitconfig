@@ -1,0 +1,16 @@
+[user]
+	name = Taichi Uragami
+	email = backpaper0@gmail.com
+[color]
+	ui = auto
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    lg = log --graph --decorate --branches
+    ca = commit --amend --no-edit --reset-author
+
+[core]
+	excludesfile = $HOME/dotfiles/.gitignore_global
+	editor = /Applications/MacVim.app/Contents/MacOS/Vim 
