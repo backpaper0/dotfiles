@@ -39,3 +39,7 @@ set smartcase
 
 " 挿入モードのときdeleteキーで文字を消せるようにする
 set backspace=start,eol,indent
+
+" gradle syntax highlighting
+au BufNewFile,BufRead *.gradle set filetype=groovy
+
