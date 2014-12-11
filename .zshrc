@@ -83,4 +83,4 @@ export PATH
 
 # その他
 alias ll='ls -l'
-
+alias tig='tig --all'
