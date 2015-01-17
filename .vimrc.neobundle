@@ -27,6 +27,7 @@ NeoBundle 'Shougo/vimproc.vim', {
       \ }
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'Shougo/vimfiler'
+NeoBundle 'thinca/vim-quickrun'
 
 call neobundle#end()
 
