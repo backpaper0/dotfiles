@@ -30,6 +30,7 @@ NeoBundle 'Shougo/vimfiler'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'gregsexton/gitv'
 NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'mattn/calendar-vim'
 
 call neobundle#end()
 
