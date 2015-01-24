@@ -28,8 +28,7 @@ NeoBundle 'Shougo/vimproc.vim', {
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'Shougo/vimfiler'
 NeoBundle 'thinca/vim-quickrun'
-NeoBundle 'gregsexton/gitv'
-NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'cohama/agit.vim'
 NeoBundle 'mattn/calendar-vim'
 
 call neobundle#end()
