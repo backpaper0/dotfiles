@@ -30,6 +30,7 @@ NeoBundle 'Shougo/vimfiler'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'cohama/agit.vim'
 NeoBundle 'mattn/calendar-vim'
+NeoBundle 'Shougo/unite-outline'
 
 call neobundle#end()
 
