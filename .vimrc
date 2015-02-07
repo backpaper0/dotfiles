@@ -1,4 +1,5 @@
 source ~/dotfiles/.vimrc.neobundle
+source ~/dotfiles/.vimrc.unite
 source ~/dotfiles/.vimrc.neocomplete
 source ~/dotfiles/.vimrc.neosnippets
 source ~/dotfiles/.vimrc.quickrun
