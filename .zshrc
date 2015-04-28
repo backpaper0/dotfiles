@@ -79,7 +79,6 @@ export ANDROID_HOME
 PATH=/usr/local/bin:$PATH
 PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
 PATH=~/kotlinc/bin:$PATH
-PATH=~/apache-maven-3.2.5/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 PATH=~/bin:$PATH
 export PATH
