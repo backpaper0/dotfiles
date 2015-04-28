@@ -72,6 +72,9 @@ alias java='java -Dfile.encoding=UTF-8'
 MAVEN_OPTS=-Dfile.encoding=UTF-8
 export MAVEN_OPTS
 
+ANDROID_HOME=~/android-sdk/
+export ANDROID_HOME
+
 # Path
 PATH=/usr/local/bin:$PATH
 PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
