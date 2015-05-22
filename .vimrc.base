@@ -20,6 +20,9 @@ set expandtab
 " tagの幅
 set tabstop=4
 
+" オートインデントのタブ幅
+set shiftwidth=4
+
 " 行番号を表示する
 set number
 
