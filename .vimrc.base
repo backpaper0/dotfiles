@@ -17,7 +17,7 @@ nnoremap : ;
 " tab入力を空白で置き換える
 set expandtab
 
-" tagの幅
+" タブの幅
 set tabstop=4
 
 " オートインデントのタブ幅
