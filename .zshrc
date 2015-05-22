@@ -81,6 +81,7 @@ PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
 PATH=~/kotlinc/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 PATH=~/bin:$PATH
+PATH=./:$PATH
 export PATH
 
 # その他
