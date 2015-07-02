@@ -63,8 +63,7 @@ bindkey -v
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim -u $HOME/.vimrc "$@"'
 
 # Java
-JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-export JAVA_HOME
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
@@ -72,8 +71,7 @@ alias java='java -Dfile.encoding=UTF-8'
 MAVEN_OPTS=-Dfile.encoding=UTF-8
 export MAVEN_OPTS
 
-ANDROID_HOME=~/android-sdk/
-export ANDROID_HOME
+export ANDROID_HOME=$HOME/android-sdk/
 
 # Go
 export GOPATH=$HOME/go
@@ -82,9 +80,9 @@ export GOPATH=$HOME/go
 PATH=/usr/local/bin:$PATH
 PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
 PATH=$GOPATH/bin:$PATH
-PATH=~/kotlinc/bin:$PATH
+PATH=$HOME/kotlinc/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
-PATH=~/bin:$PATH
+PATH=$HOME/bin:$PATH
 PATH=./:$PATH
 export PATH
 
