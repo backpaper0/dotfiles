@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 DOTFILES=(gitconfig vimrc zshrc)
 
-for file in $DOTFILES
+for file in ${DOTFILES[@]}
 do
   ln -s ~/dotfiles/.$file ~/.$file
 done
