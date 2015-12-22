@@ -79,6 +79,7 @@ export GOPATH=$HOME/go
 # Path
 PATH=/usr/local/bin:$PATH
 PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
+PATH=$HOME/payara/bin:$PATH
 PATH=$GOPATH/bin:$PATH
 PATH=$HOME/kotlinc/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
