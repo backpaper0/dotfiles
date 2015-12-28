@@ -71,7 +71,7 @@ alias java='java -Dfile.encoding=UTF-8'
 MAVEN_OPTS=-Dfile.encoding=UTF-8
 export MAVEN_OPTS
 
-export ANDROID_HOME=$HOME/android-sdk/
+export ANDROID_HOME=$HOME/android-sdks/
 
 # Go
 export GOPATH=$HOME/go
