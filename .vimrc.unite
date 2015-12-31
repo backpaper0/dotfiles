@@ -7,3 +7,5 @@ nnoremap <silent> [unite]g :<C-u>Unite<Space>file_rec/git<CR>
 nnoremap <silent> [unite]f :<C-u>Unite<Space>file_rec/async<CR>
 " Space + b -> :Unite buffer
 nnoremap <silent> [unite]b :<C-u>Unite<Space>buffer<CR>
+" Space + o -> :Unite outline
+nnoremap <silent> [unite]o :<C-u>Unite<Space>outline<CR>
