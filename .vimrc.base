@@ -59,3 +59,5 @@ set backspace=start,eol,indent
 " gradle syntax highlighting
 au BufNewFile,BufRead *.gradle set filetype=groovy
 
+" ヤンクしたらクリップボードにもコピーする
+set clipboard+=unnamed
