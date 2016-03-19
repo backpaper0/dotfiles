@@ -34,6 +34,7 @@ NeoBundle 'Shougo/unite-outline'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'hokaccha/vim-html5validator'
+NeoBundle 'vim-scripts/logstash.vim'
 
 call neobundle#end()
 
