@@ -12,7 +12,7 @@
     ca = commit --amend --no-edit --reset-author
 
 [core]
-	excludesfile = $HOME/dotfiles/.gitignore_global
+	excludesfile = ~/dotfiles/.gitignore_global
 	editor = /Applications/MacVim.app/Contents/MacOS/Vim 
 	autocrlf = input
 	quotepath = false
