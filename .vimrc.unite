@@ -9,3 +9,5 @@ nnoremap <silent> [unite]f :<C-u>Unite<Space>file_rec/async<CR>
 nnoremap <silent> [unite]b :<C-u>Unite<Space>buffer<CR>
 " Space + o -> :Unite outline
 nnoremap <silent> [unite]o :<C-u>Unite<Space>outline<CR>
+" Space + t -> :Unite tweetvim
+nnoremap <silent> [unite]t :<C-u>Unite<Space>tweetvim<CR>
