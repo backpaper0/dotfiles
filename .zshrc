@@ -71,7 +71,7 @@ alias java='java -Dfile.encoding=UTF-8'
 MAVEN_OPTS=-Dfile.encoding=UTF-8
 export MAVEN_OPTS
 
-export ANDROID_HOME=$HOME/android-sdks/
+export ANDROID_HOME=$HOME/android-sdks
 
 # Go
 export GOPATH=$HOME/go
@@ -79,6 +79,8 @@ export GOPATH=$HOME/go
 # Path
 PATH=/usr/local/bin:$PATH
 PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
+PATH=$ANDROID_HOME/platform-tools:$PATH
+PATH=$ANDROID_HOME/tools:$PATH
 PATH=$HOME/payara/bin:$PATH
 PATH=$GOPATH/bin:$PATH
 PATH=$HOME/kotlinc/bin:$PATH
@@ -90,3 +92,5 @@ export PATH
 # その他
 alias ll='ls -l'
 # alias tig='tig --all'
+
+source ~/secret/.zshrc_secret
