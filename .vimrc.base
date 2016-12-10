@@ -28,6 +28,9 @@ set shiftwidth=4
 " 行番号を表示する
 set number
 
+" カーソルの位置を表示する
+set ruler
+
 " マッチした箇所をハイライト
 set hlsearch
 
