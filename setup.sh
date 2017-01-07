@@ -7,13 +7,14 @@ do
   ln -s ~/dotfiles/.$file ~/.$file
 done
 
-if [ ! -e ~/.vim/bundle ]
+if [ ! -e ~/.vim/dein ]
 then
-  mkdir -p ~/.vim/bundle
+  mkdir -p ~/.vim/dein
 fi
 
-if [ ! -e ~/.vim/bundle/neobundle.vim ]
+if [ ! -e ~/.vim/dein/repos/github.com/Shougo/dein.vim ]
 then
-  git clone https://github.com/Shougo/neobundle.vim.git ~/.vim/bundle/neobundle.vim
+  curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+  sh ./installer.sh ~/.vim/dein
 fi
 
