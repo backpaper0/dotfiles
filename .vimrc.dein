@@ -42,6 +42,7 @@ call dein#add('hokaccha/vim-html5validator')
 call dein#add('vim-scripts/logstash.vim')
 call dein#add('basyura/TweetVim')
 call dein#add('basyura/twibill.vim')
+call dein#add('posva/vim-vue')
 
 " You can specify revision/branch/tag.
 " call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
