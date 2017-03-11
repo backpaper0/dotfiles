@@ -78,6 +78,7 @@ export GOPATH=$HOME/go
 
 # Path
 PATH=/usr/local/bin:$PATH
+PATH=/usr/local/Cellar/ruby/2.4.0/bin:$PATH
 PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
 PATH=$ANDROID_HOME/platform-tools:$PATH
 PATH=$ANDROID_HOME/tools:$PATH
