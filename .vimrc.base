@@ -64,5 +64,8 @@ set backspace=start,eol,indent
 " gradle syntax highlighting
 au BufNewFile,BufRead *.gradle set filetype=groovy
 
+" JSONはtxtで扱う（JSONモード的なやつ、使いにくい。。。）
+au BufNewFile,BufRead *.json set filetype=txt
+
 " ヤンクしたらクリップボードにもコピーする
 set clipboard+=unnamed
