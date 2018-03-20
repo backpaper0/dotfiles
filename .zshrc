@@ -73,6 +73,8 @@ export MAVEN_OPTS
 
 export ANDROID_HOME=$HOME/android-sdks
 
+export BYTEMAN_HOME=$HOME/byteman-download-4.0.1
+
 # Go
 export GOPATH=$HOME/go
 
