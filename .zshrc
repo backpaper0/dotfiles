@@ -68,25 +68,17 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
 
-MAVEN_OPTS=-Dfile.encoding=UTF-8
-export MAVEN_OPTS
+export MAVEN_OPTS=-Dfile.encoding=UTF-8
 
-export ANDROID_HOME=$HOME/android-sdks
-
-export BYTEMAN_HOME=$HOME/byteman-download-4.0.1
+export BYTEMAN_HOME=$(ls -1 -d ~/byteman-*)
 
 # Go
 export GOPATH=$HOME/go
 
 # Path
 PATH=/usr/local/bin:$PATH
-PATH=/usr/local/Cellar/ruby/2.4.0/bin:$PATH
-PATH=/usr/local/Cellar/git/2.1.0/bin:$PATH
-PATH=$ANDROID_HOME/platform-tools:$PATH
-PATH=$ANDROID_HOME/tools:$PATH
-PATH=$HOME/payara/bin:$PATH
 PATH=$GOPATH/bin:$PATH
-PATH=$HOME/kotlinc/bin:$PATH
+PATH=$BYTEMAN_HOME/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 PATH=$HOME/bin:$PATH
 PATH=./:$PATH
