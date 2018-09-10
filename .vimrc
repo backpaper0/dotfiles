@@ -1,7 +1,7 @@
-source ~/dotfiles/.vimrc.dein
-source ~/dotfiles/.vimrc.unite
-source ~/dotfiles/.vimrc.neocomplete
-source ~/dotfiles/.vimrc.neosnippets
-source ~/dotfiles/.vimrc.quickrun
-source ~/dotfiles/.vimrc.vimfiler
-source ~/dotfiles/.vimrc.base
+source ~/dotfiles/vim/dein.vim
+source ~/dotfiles/vim/unite.vim
+source ~/dotfiles/vim/neocomplete.vim
+source ~/dotfiles/vim/neosnippets.vim
+source ~/dotfiles/vim/quickrun.vim
+source ~/dotfiles/vim/vimfiler.vim
+source ~/dotfiles/vim/base.vim
