@@ -8,13 +8,19 @@
    git clone git@github.com:backpaper0/dotfiles.git "%USERPROFILE%\dotfiles"
    ```
 
-2. Create `~/_vimrc` with the following contents:
+2. Clone [dein.vim](https://github.com/Shougo/dein.vim) to local.
+
+   ```console
+   git clone git@github.com:Shougo/dein.vim.git "%USERPROFILE%\.cache\dein\repos\github.com\Shougo\dein.vim"
+   ```
+
+3. Create `~/_vimrc` with the following contents:
 
    ```vim
    source ~/dotfiles/master.vim
    ```
 
-3. Create `_gvimrc` with the following contents:
+4. Create `_gvimrc` with the following contents:
 
    ```vim
    source ~/dotfiles/gvim.vim
