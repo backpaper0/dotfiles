@@ -37,12 +37,6 @@ set hlsearch
 " Esc Esc でハイライトをオフにする
 nnoremap <Esc><Esc> :nohlsearch<CR>
 
-" /?*# のいずれかでハイライトをオンにする
-nnoremap / :set hlsearch<CR>/
-nnoremap ? :set hlsearch<CR>?
-nnoremap * :set hlsearch<CR>*
-nnoremap # :set hlsearch<CR>#
-
 " インクリメンタルサーチ
 set incsearch
 
@@ -69,3 +63,8 @@ au BufNewFile,BufRead *.json set filetype=txt
 
 " ヤンクしたらクリップボードにもコピーする
 set clipboard+=unnamed
+
+" UTF-8を使う
+set fileencoding=utf-8
+set encoding=utf-8
+

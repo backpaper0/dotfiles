@@ -29,14 +29,9 @@ done
 
 # Install dein (Vim plugin package manager)
 
-if [ ! -e ~/.vim/dein ]
-then
-  mkdir -p ~/.vim/dein
-fi
-
-if [ ! -e ~/.vim/dein/repos/github.com/Shougo/dein.vim ]
+if [ ! -e ~/.cache/dein/repos/github.com/Shougo/dein.vim ]
 then
   curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
-  sh ./installer.sh ~/.vim/dein
+  sh ./installer.sh ~/.cache/dein
 fi
 
