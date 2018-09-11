@@ -56,10 +56,10 @@ set smartcase
 set backspace=start,eol,indent
 
 " gradle syntax highlighting
-au BufNewFile,BufRead *.gradle set filetype=groovy
+autocmd BufNewFile,BufRead *.gradle set filetype=groovy
 
 " JSONはtxtで扱う（JSONモード的なやつ、使いにくい。。。）
-au BufNewFile,BufRead *.json set filetype=txt
+autocmd BufNewFile,BufRead *.json set filetype=txt
 
 " ヤンクしたらクリップボードにもコピーする
 set clipboard+=unnamed
@@ -67,4 +67,10 @@ set clipboard+=unnamed
 " UTF-8を使う
 set fileencoding=utf-8
 set encoding=utf-8
+
+" モードを左下へ表示する
+set showmode
+
+" 入力中のコマンドを右下へ表示する
+set showcmd
 
