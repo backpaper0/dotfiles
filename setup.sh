@@ -2,13 +2,13 @@
 
 # Core dotfiles
 
-DOTFILES=(gitconfig vimrc zshrc)
+DOTFILES=(gitconfig vimrc bash_profile)
 
 for file in ${DOTFILES[@]}
 do
   if [ ! -e ~/.$file ]
   then
-    ln -s ~/dotfiles/.$file ~/.$file
+    ln -s ~/dotfiles/$file ~/.$file
   fi
 done
 
