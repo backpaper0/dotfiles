@@ -67,3 +67,9 @@ set noundofile
 " UTF-8を使う
 set fileencoding=utf-8
 set encoding=utf-8
+
+" モードを左下へ表示する
+set showmode
+
+" 入力中のコマンドを右下へ表示する
+set showcmd
