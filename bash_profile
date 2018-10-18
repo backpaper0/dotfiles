@@ -6,11 +6,13 @@ PS1="\[\e[36m\]$ \[\e[0m\]"
 PS2="\[\e[36m\]> \[\e[0m\]"
 
 alias ls='ls -G'
+alias ll='ls -l'
 
 
 # Java
 
-export JAVA_HOME=$(/usr/libexec/java_home -v 10)
+export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+export JAVA8_HOME=$(/usr/libexec/java_home -v 1.8)
 
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
