@@ -27,6 +27,7 @@ export BYTEMAN_HOME=$(ls -1 -d ~/byteman-*)
 PATH=/usr/local/bin:$PATH
 PATH=$BYTEMAN_HOME/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
+PATH=$HOME/maven/bin:$PATH
 PATH=$HOME/bin:$PATH
 PATH=./:$PATH
 export PATH
