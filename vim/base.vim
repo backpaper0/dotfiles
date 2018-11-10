@@ -10,11 +10,11 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
-" ノーマルモード、ビジュアルモードのときは ; と : を入れ替える
-nnoremap ; :
-nnoremap : ;
-vnoremap ; :
-vnoremap : ;
+" " ノーマルモード、ビジュアルモードのときは ; と : を入れ替える
+" nnoremap ; :
+" nnoremap : ;
+" vnoremap ; :
+" vnoremap : ;
 
 " tab入力を空白で置き換える
 set expandtab
