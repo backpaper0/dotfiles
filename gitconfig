@@ -16,3 +16,6 @@
 	editor = vim
 	autocrlf = input
 	quotepath = false
+
+[commit]
+    template = ~/dotfiles/git.commit.template.emoji.txt
