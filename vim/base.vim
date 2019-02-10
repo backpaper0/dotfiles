@@ -16,8 +16,8 @@ noremap <Right> <Nop>
 " vnoremap ; :
 " vnoremap : ;
 
-" tab入力を空白で置き換える
-set expandtab
+" " tab入力を空白で置き換える
+" set expandtab
 
 " タブの幅
 set tabstop=4
