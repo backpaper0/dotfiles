@@ -21,15 +21,9 @@ export MAVEN_OPTS=-Dfile.encoding=UTF-8
 
 export BYTEMAN_HOME=$(ls -1 -d ~/byteman-*)
 
-export ANDROID_HOME=$HOME/android-sdk
-
 # Path
 
 PATH=/usr/local/bin:$PATH
-PATH=$ANDROID_HOME/tools:$PATH
-PATH=$ANDROID_HOME/tools/bin:$PATH
-PATH=$ANDROID_HOME/platform-tools:$PATH
-PATH=$HOME/flutter/bin:$PATH
 PATH=$BYTEMAN_HOME/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 PATH=$HOME/maven/bin:$PATH
