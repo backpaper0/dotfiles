@@ -11,7 +11,6 @@ alias ll='ls -l'
 
 # Java
 
-export JAVA8_HOME=$(/usr/libexec/java_home -v 1.8)
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 
 alias javac='javac -J-Dfile.encoding=UTF-8'
