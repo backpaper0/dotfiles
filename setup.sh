@@ -14,18 +14,15 @@ done
 
 # filetype settings
 
-if [ ! -e ~/.vim/ftplugin ]
+if [ ! -e ~/.vim ]
 then
-  mkdir -p ~/.vim/ftplugin
+  mkdir -p ~/.vim
 fi
 
-for file in `ls ~/dotfiles/ftplugin`
-do
-  if [ ! -e ~/.vim/ftplugin/$file ]
-  then
-    ln -s ~/dotfiles/ftplugin/$file ~/.vim/ftplugin/$file
-  fi
-done
+if [ ! -e ~/.vim/ftplugin ]
+then
+  ln -s ~/dotfiles/ftplugin ~/.vim/ftplugin
+fi
 
 # Install dein (Vim plugin package manager)
 
