@@ -20,13 +20,12 @@ export MAVEN_OPTS=-Dfile.encoding=UTF-8
 
 export BYTEMAN_HOME=$(ls -1 -d ~/byteman-*)
 
-# Ruby
-
-eval "$(rbenv init -)"
-
 # Path
 
 PATH=/usr/local/bin:$PATH
+
+eval "$(rbenv init -)"
+
 PATH=$BYTEMAN_HOME/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 PATH=$HOME/maven/bin:$PATH
