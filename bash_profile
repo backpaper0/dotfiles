@@ -34,3 +34,5 @@ PATH=./:$PATH
 export PATH
 
 source ~/secret/secret_variables
+
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
