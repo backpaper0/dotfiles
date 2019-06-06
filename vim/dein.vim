@@ -28,6 +28,7 @@ if dein#load_state('~/.cache/dein')
   "call dein#add('rust-lang/rust.vim')
   call dein#add('ElmCast/elm-vim')
   call dein#add('mechatroner/rainbow_csv')
+  call dein#add('katono/rogue.vim')
  
   call dein#end()
   call dein#save_state()
