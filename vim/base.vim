@@ -61,6 +61,9 @@ autocmd BufNewFile,BufRead *.gradle set filetype=groovy
 " JSONはtxtで扱う（JSONモード的なやつ、使いにくい。。。）
 autocmd BufNewFile,BufRead *.json set filetype=txt
 
+" TypeScriptのインデントを2にする
+autocmd BufNewFile,BufRead *.ts,*.tsx set tabstop=2 shiftwidth=2
+
 " ヤンクしたらクリップボードにもコピーする
 set clipboard+=unnamed
 
