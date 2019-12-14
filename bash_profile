@@ -26,6 +26,8 @@ PATH=/usr/local/bin:$PATH
 
 eval "$(rbenv init -)"
 
+PATH=/usr/local/mysql-5.7.27-macos10.14-x86_64/bin/:$PATH
+PATH=/usr/local/mysql-5.7.27-macos10.14-x86_64/support-files/:$PATH
 PATH=$BYTEMAN_HOME/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 PATH=$HOME/maven/bin:$PATH
