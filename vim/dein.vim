@@ -29,6 +29,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('ElmCast/elm-vim')
   call dein#add('mechatroner/rainbow_csv')
   call dein#add('katono/rogue.vim')
+  call dein#add('leafgarland/typescript-vim')
  
   call dein#end()
   call dein#save_state()
@@ -37,3 +38,6 @@ endif
 filetype plugin indent on
 syntax enable
 
+if dein#check_install()
+  call dein#install()
+endif
