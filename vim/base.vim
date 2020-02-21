@@ -63,6 +63,7 @@ autocmd BufNewFile,BufRead *.json set filetype=txt
 
 " TypeScriptのインデントを2にする
 autocmd BufNewFile,BufRead *.ts,*.tsx set tabstop=2 shiftwidth=2
+autocmd BufNewFile,BufRead *.ts,*.tsx set expandtab
 
 " ヤンクしたらクリップボードにもコピーする
 set clipboard+=unnamed
