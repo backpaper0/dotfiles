@@ -16,3 +16,5 @@
 	editor = vim
 	autocrlf = input
 	quotepath = false
+[includeIf "gitdir:~/src/work/"]
+	path = ~/.gitconfig.for-work
