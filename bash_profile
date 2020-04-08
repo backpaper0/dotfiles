@@ -8,7 +8,6 @@ PS2="\[\e[36m\]> \[\e[0m\]"
 alias ls='ls -G'
 alias ll='ls -l'
 
-
 # Java
 
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
@@ -24,10 +23,17 @@ export BYTEMAN_HOME=$(ls -1 -d ~/byteman-*)
 
 PATH=/usr/local/bin:$PATH
 
+# Python
+export PYENV_ROOT=$HOME/.pyenv
+eval "$(pyenv init -)"
+
+# Ruby
 eval "$(rbenv init -)"
 
-PATH=/usr/local/mysql-5.7.27-macos10.14-x86_64/bin/:$PATH
-PATH=/usr/local/mysql-5.7.27-macos10.14-x86_64/support-files/:$PATH
+# Node
+eval "$(nodenv init -)"
+
+PATH=/usr/local/opt/openssl@1.1/bin:$PATH
 PATH=$BYTEMAN_HOME/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 PATH=$HOME/maven/bin:$PATH
@@ -35,12 +41,12 @@ PATH=$HOME/bin:$PATH
 PATH=./:$PATH
 export PATH
 
+# Open SSL
+export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
 source ~/secret/secret_variables
 
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/backpaper0/google-cloud-sdk/path.bash.inc' ]; then . '/Users/backpaper0/google-cloud-sdk/path.bash.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/backpaper0/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/backpaper0/google-cloud-sdk/completion.bash.inc'; fi
