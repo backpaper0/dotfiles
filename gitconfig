@@ -18,3 +18,5 @@
 	quotepath = false
 [includeIf "gitdir:~/src/work/"]
 	path = ~/.gitconfig.for-work
+[fetch]
+	prune = true
