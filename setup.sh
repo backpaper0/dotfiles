@@ -2,7 +2,7 @@
 
 # Core dotfiles
 
-DOTFILES=(gitconfig vimrc bash_profile)
+DOTFILES=(gitconfig gitignore_global vimrc zshrc)
 
 for file in ${DOTFILES[@]}
 do
