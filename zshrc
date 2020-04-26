@@ -27,3 +27,11 @@ export CLICOLOR=true
 autoload -U compinit
 compinit -u
 
+# ctrl + rでpecoを用いたコマンド履歴検索を行う
+function select_from_history_with_peco() {
+  BUFFER=$(history -n 1 | peco)
+  CURSOR=$#BUFFER
+  zle redisplay
+}
+zle -N select_from_history_with_peco
+bindkey '^r' select_from_history_with_peco
