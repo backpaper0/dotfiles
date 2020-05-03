@@ -10,6 +10,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
 
+PATH=/usr/local/opt/curl/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 export PATH
 
