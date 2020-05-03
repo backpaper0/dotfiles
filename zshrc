@@ -30,7 +30,12 @@ compinit -u
 
 # ctrl + rでpecoを用いたコマンド履歴検索を行う
 function select_from_history_with_peco() {
-  BUFFER=$(history -n 1 | peco)
+  # awk '!a[$0]++'
+  # - a[<KEY>]は連想配列。キーとなっている$0は行全体を表す
+  # - !は否定。重複している行があれば値がインクリメントされて0ではなくなるのでfalseと評価される
+  # - printが書かれていないので行全体が出力される
+  # - 以上のことから重複を排除できている
+  BUFFER=$(history -n 1 | tail -r | awk '!a[$0]++' | peco)
   CURSOR=$#BUFFER
   zle redisplay
 }
