@@ -41,3 +41,6 @@ function select_from_history_with_peco() {
 }
 zle -N select_from_history_with_peco
 bindkey '^r' select_from_history_with_peco
+
+# GnuPG
+export GPG_TTY=$(tty)

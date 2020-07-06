@@ -20,3 +20,11 @@
 	path = ~/.gitconfig.for-work
 [fetch]
 	prune = true
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
