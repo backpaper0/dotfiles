@@ -16,8 +16,6 @@
 	editor = vim
 	autocrlf = input
 	quotepath = false
-[includeIf "gitdir:~/src/work/"]
-	path = ~/.gitconfig.for-work
 [fetch]
 	prune = true
 [diff]
@@ -28,3 +26,5 @@
 	tool = vimdiff
 [mergetool]
 	prompt = false
+[pull]
+	rebase = false
