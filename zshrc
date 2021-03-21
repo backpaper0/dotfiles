@@ -11,6 +11,8 @@ alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
 
 PATH=/usr/local/opt/curl/bin:$PATH
+PATH=$HOME/.local/bin:$PATH
+PATH=$HOME/apache-jmeter-5.3/bin/:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 export PATH
 
