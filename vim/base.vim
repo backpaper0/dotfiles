@@ -78,3 +78,5 @@ set showmode
 " 入力中のコマンドを右下へ表示する
 set showcmd
 
+" Leaderをスペースへ割り当てる
+let mapleader = "\<Space>"
