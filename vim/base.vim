@@ -80,3 +80,6 @@ set showcmd
 
 " Leaderをスペースへ割り当てる
 let mapleader = "\<Space>"
+
+" 現在のウィンドウを閉じる
+nnoremap <silent> <Leader>q :<C-u>close<CR>
