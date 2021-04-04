@@ -7,5 +7,5 @@ nnoremap <silent> <Leader>rt :<C-u>RustTest<CR>
 
 " https://crates.io/crates/rusty-tags
 setlocal tags=./rusty-tags.vi;/,$RUST_SRC_PATH/rusty-tags.vi
-autocmd BufWritePost *.rs :silent! exec "!rusty-tags vi --quiet --start-dir=" . expand('%:p:h') . "&" | redraw!
+autocmd BufWritePost *.rs :silent! exec "!if [ -f ./Cargo.toml ]; then; rusty-tags vi --quiet --start-dir=" . expand('%:p:h') . "&; fi" | redraw!
 

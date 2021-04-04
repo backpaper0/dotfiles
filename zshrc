@@ -14,6 +14,7 @@ alias java='java -Dfile.encoding=UTF-8'
 
 PATH=$(brew --prefix universal-ctags)/bin:$PATH
 PATH=$(brew --prefix curl)/bin:$PATH
+PATH=$(brew --prefix openssl)/bin:$PATH
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/apache-jmeter-5.3/bin/:$PATH
 PATH=$JAVA_HOME/bin:$PATH
