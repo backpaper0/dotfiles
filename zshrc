@@ -1,3 +1,5 @@
+# Rust
+export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library/
 
 # Ruby
 eval "$(rbenv init -)"
@@ -5,12 +7,13 @@ eval "$(rbenv init -)"
 eval "$(nodenv init -)"
 
 # Java
-export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.7)
 
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
 
-PATH=/usr/local/opt/curl/bin:$PATH
+PATH=$(brew --prefix universal-ctags)/bin:$PATH
+PATH=$(brew --prefix curl)/bin:$PATH
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/apache-jmeter-5.3/bin/:$PATH
 PATH=$JAVA_HOME/bin:$PATH

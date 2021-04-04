@@ -83,3 +83,6 @@ let mapleader = "\<Space>"
 
 " 現在のウィンドウを閉じる
 nnoremap <silent> <Leader>q :<C-u>close<CR>
+
+" 複数候補の有無で操作を切り替えるのが面倒なので一律 g ctrl + ] にする
+nnoremap <C-]> g<C-]>
