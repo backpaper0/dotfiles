@@ -12,9 +12,14 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.7)
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
 
-PATH=$(brew --prefix universal-ctags)/bin:$PATH
-PATH=$(brew --prefix curl)/bin:$PATH
-PATH=$(brew --prefix openssl)/bin:$PATH
+#brew --prefix xxxが遅すぎる、、、
+#PATH=$(brew --prefix universal-ctags)/bin:$PATH
+#PATH=$(brew --prefix curl)/bin:$PATH
+#PATH=$(brew --prefix openssl)/bin:$PATH
+PATH=/usr/local/opt/universal-ctags/bin:$PATH
+PATH=/usr/local/opt/curl/bin:$PATH
+PATH=/usr/local/opt/openssl/bin:$PATH
+
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/apache-jmeter-5.3/bin/:$PATH
 PATH=$JAVA_HOME/bin:$PATH
