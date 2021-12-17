@@ -12,6 +12,9 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
 
+# Kubernetes
+alias kc=kubectl
+
 #brew --prefix xxxが遅すぎる、、、
 #PATH=$(brew --prefix universal-ctags)/bin:$PATH
 #PATH=$(brew --prefix curl)/bin:$PATH
