@@ -1,10 +1,8 @@
 # Rust
 export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library/
 
-# Ruby
-eval "$(rbenv init -)"
-# Node
-eval "$(nodenv init -)"
+# asdf
+. /usr/local/opt/asdf/libexec/asdf.sh
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home -v 17)
