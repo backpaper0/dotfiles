@@ -1,3 +1,6 @@
+# プロンプトを簡素にしちゃう
+export PS1="%1~ $ "
+
 # Rust
 export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library/
 
@@ -8,9 +11,12 @@ export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library/
 #alias javac='javac -J-Dfile.encoding=UTF-8'
 #alias java='java -Dfile.encoding=UTF-8'
 
+export BYTEMAN_HOME=$HOME/byteman
+
 # Kubernetes
 alias kc=kubectl
 
+# Go
 PATH=$HOME/go/bin:$PATH
 
 #brew --prefix xxxが遅すぎる、、、
@@ -20,13 +26,16 @@ PATH=$HOME/go/bin:$PATH
 PATH=/usr/local/opt/universal-ctags/bin:$PATH
 PATH=/usr/local/opt/curl/bin:$PATH
 PATH=/usr/local/opt/openssl/bin:$PATH
+PATH=/usr/local/opt/sqlite/bin:$PATH
 
 PATH=$HOME/.local/bin:$PATH
 #PATH=$JAVA_HOME/bin:$PATH
-export PATH
 
 # asdf
 . /usr/local/opt/asdf/libexec/asdf.sh
+. ~/.asdf/plugins/java/set-java-home.zsh
+
+export PATH
 
 # 秘密な値を読み込む
 # このファイルはバージョン管理していない
@@ -59,9 +68,6 @@ bindkey '^r' select_from_history_with_peco
 # GnuPG
 export GPG_TTY=$(tty)
 
-# Added by serverless binary installer
-export PATH="$HOME/.serverless/bin:$PATH"
-
 # Vagrant
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
@@ -70,3 +76,4 @@ export VAGRANT_DEFAULT_PROVIDER=virtualbox
 [[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
 
 source /Users/urgm/.docker/init-zsh.sh || true # Added by Docker Desktop
+

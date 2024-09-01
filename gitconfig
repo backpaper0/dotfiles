@@ -1,6 +1,7 @@
 [user]
 	name = Uragami Taichi
 	email = backpaper0@gmail.com
+	signingkey = 8AC845218A974D76
 [color]
 	ui = auto
 [alias]
@@ -14,7 +15,6 @@
 [core]
 	excludesfile = ~/dotfiles/gitignore_global
 	editor = vim
-	autocrlf = input
 	quotepath = false
 [fetch]
 	prune = true
@@ -28,3 +28,7 @@
 	prompt = false
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
