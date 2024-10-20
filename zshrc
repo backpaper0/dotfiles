@@ -75,5 +75,6 @@ export VAGRANT_DEFAULT_PROVIDER=virtualbox
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
 
-source /Users/urgm/.docker/init-zsh.sh || true # Added by Docker Desktop
+source $HOME/.docker/init-zsh.sh || true # Added by Docker Desktop
 
+. "$HOME/.deno/env"
