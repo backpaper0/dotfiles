@@ -2,7 +2,7 @@
 
 # Core dotfiles
 
-DOTFILES=(gitconfig gitignore_global zshrc tmux.conf)
+DOTFILES=(gitconfig gitignore_global zshrc)
 
 for file in ${DOTFILES[@]}
 do
