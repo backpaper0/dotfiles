@@ -68,6 +68,8 @@ bindkey '^r' select_from_history_with_peco
 # GnuPG
 export GPG_TTY=$(tty)
 
+gpgconf --kill gpg-agent
+
 # Vagrant
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
