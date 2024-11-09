@@ -4,11 +4,11 @@
 
 DOTFILES=(gitconfig gitignore_global zshrc)
 
-for file in ${DOTFILES[@]}
+for file in $(ls files)
 do
-  if [ ! -e ~/.$file ]
+  if [ ! -e $HOME/.$file ]
   then
-    ln -s ~/dotfiles/$file ~/.$file
+    ln -s $HOME/dotfiles/files/$file ~/.$file
   fi
 done
 
